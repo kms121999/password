@@ -3,7 +3,7 @@ PASSWORD = "Hello Kitty"
 
 userAttempt = input("Password: ")
 
-if userAttempt = PASSWORD:
+if userAttempt == PASSWORD:
     print("That is correct!")
 else:
-    print("That is incorrect. >:("
+    print("That is incorrect. >:(")
