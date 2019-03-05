@@ -1,9 +1,14 @@
 #Set password
 PASSWORD = "Hello Kitty"
 
-userAttempt = input("Password: ")
+PASSWORD_PROMPT = "Password: "
 
-if userAttempt == PASSWORD:
-    print("That is correct!")
-else:
+userAttempt = input(PASSWORD_PROMPT)
+
+while userAttempt != PASSWORD:
     print("That is incorrect. >:(")
+
+    userAttempt = input(PASSWORD_PROMPT)
+
+
+print("That is correct!")
